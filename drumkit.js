@@ -12,7 +12,7 @@ for (let i = 0; i < drums.length; i++) {
 
 document.addEventListener("keydown", function (e) {
   makeSound(e.key);
-  let keyList = ["w", "e", "s", "d", "j", "k", "l"];
+  let keyList = ["w", "a", "s", "d", "j", "k", "l"];
   if (keyList.includes(e.key)) {
     buttonAnimation(e.key);
   }
